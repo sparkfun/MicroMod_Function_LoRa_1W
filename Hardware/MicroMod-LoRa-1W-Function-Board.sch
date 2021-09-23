@@ -19806,7 +19806,7 @@ Out</text>
 <text x="175.26" y="99.06" size="1.778" layer="97" font="vector" align="center">VCC: 3.3-5.5V
 &gt;= 5V Ensures Max Output Power</text>
 <text x="165.354" y="11.176" size="2.54" layer="94">N. Seidle</text>
-<text x="241.554" y="8.636" size="2.54" layer="94">x01</text>
+<text x="241.554" y="8.636" size="2.54" layer="94">v10</text>
 <text x="170.18" y="180.34" size="2.54" layer="94" font="vector" align="center">LoRa Radio 30dBm</text>
 <text x="200.66" y="172.72" size="1.27" layer="97">Board thickness: 0.8mm</text>
 <text x="200.66" y="167.64" size="1.27" layer="97">Er: 4.5</text>

@@ -196,7 +196,7 @@
 <board>
 <plain>
 <wire x1="28.975" y1="0" x2="22.275" y2="0" width="0.05" layer="20"/>
-<text x="36.83" y="52.07" size="1.27" layer="16" font="vector" ratio="20" rot="SMR270" align="center">x03</text>
+<text x="36.83" y="52.07" size="1.27" layer="16" font="vector" ratio="20" rot="SMR270" align="center">v10</text>
 <text x="34.29" y="-27.94" size="1.778" layer="51" font="vector" ratio="15">N. Seidle</text>
 <wire x1="21.075" y1="0" x2="9.125" y2="0" width="0.05" layer="20"/>
 <wire x1="28.975" y1="0" x2="28.975" y2="3.5" width="0.05" layer="20"/>
