@@ -15412,7 +15412,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0" y="1.143" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
 <text x="0" y="-1.143" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
-<package name="0603">
+<package name="0603" urn="urn:adsk.eagle:footprint:39615/1" library_version="1">
 <description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
 <wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
@@ -16861,8 +16861,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 <wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
@@ -16874,8 +16874,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-0.762" y1="0" x2="1.016" y2="0" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="3.048" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-3.048" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -16884,8 +16884,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
 <wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
 <wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-2.54" y="-2.54" size="1.778" layer="96" font="vector" align="top-left">&gt;VALUE</text>
+<text x="0" y="2.794" size="1.778" layer="95" font="vector" align="center">&gt;NAME</text>
+<text x="0" y="-2.794" size="1.778" layer="96" font="vector" align="center">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -17371,7 +17371,9 @@ This is a footprint for an edge mount SMD SMA connector. Works pretty well with 
 <wire x1="-2.667" y1="4.7554" x2="-3.175" y2="5.0094" width="0.0762" layer="51"/>
 <wire x1="-3.175" y1="5.0094" x2="-2.667" y2="5.2634" width="0.0762" layer="51"/>
 <wire x1="-2.667" y1="5.2634" x2="-2.667" y2="6" width="0.0762" layer="51"/>
-<wire x1="-2.667" y1="6" x2="2.667" y2="6" width="0.0762" layer="51"/>
+<wire x1="-2.667" y1="6" x2="-0.4" y2="6" width="0.0762" layer="51"/>
+<wire x1="-0.4" y1="6" x2="0.4" y2="6" width="0.0762" layer="51"/>
+<wire x1="0.4" y1="6" x2="2.667" y2="6" width="0.0762" layer="51"/>
 <wire x1="2.667" y1="6" x2="2.667" y2="5.2634" width="0.0762" layer="51"/>
 <wire x1="2.667" y1="5.2634" x2="3.175" y2="5.0094" width="0.0762" layer="51"/>
 <wire x1="3.175" y1="5.0094" x2="2.667" y2="4.7554" width="0.0762" layer="51"/>
@@ -17514,6 +17516,8 @@ Power Layers</text>
 <wire x1="-3.81" y1="0" x2="-1.27" y2="-2.54" width="0.1524" layer="48"/>
 <wire x1="1.27" y1="-2.54" x2="2.54" y2="-3.81" width="0.1524" layer="48"/>
 <wire x1="2.54" y1="-3.81" x2="5.08" y2="-6.35" width="0.1524" layer="48"/>
+<wire x1="-0.4" y1="6" x2="0" y2="6.7" width="0.0762" layer="51"/>
+<wire x1="0" y1="6.7" x2="0.4" y2="6" width="0.0762" layer="51"/>
 </package>
 </packages>
 <symbols>
@@ -19740,10 +19744,10 @@ Out</text>
 <part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="10UF-POLAR" device="-EIA3216-16V-10%(TANT)" value="10uF"/>
-<part name="MEAS" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
+<part name="MEAS" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value="JUMPER-COMBO_2_NC_TRACE"/>
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
-<part name="PWR_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value=""/>
+<part name="PWR_LED" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1" value="JUMPER-SMT_2_NC_TRACE_SILK"/>
 <part name="R11" library="SparkFun-Resistors" deviceset="1KOHM" device="-0603-1/10W-1%" value="1k"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="RED"/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -19793,7 +19797,7 @@ Out</text>
 <part name="Q8" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCH" device="-AO3404A" value="5.8A/30V/35mΩ"/>
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="SUPPLY1" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value=""/>
+<part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NO" device="_SILK" package3d_urn="urn:adsk.eagle:package:39279/1" value="JUMPER-SMT_2_NO_SILK"/>
 </parts>
 <sheets>
 <sheet>
