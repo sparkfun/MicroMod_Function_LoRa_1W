@@ -22,8 +22,11 @@ Repository Contents
 Documentation
 --------------
 
+* **[E19-915M30S Datasheet](https://github.com/sparkfun/MicroMod_Function_LoRa_1W/blob/main/Documents/E19-915M30S_Usermanual_EN_v1.20.pdf)** - Datasheet for the LoRa module
+  * **[SX1276 Datasheet](https://cdn.sparkfun.com/assets/7/7/3/2/2/SX1276_Datasheet.pdf)** - Datasheet for the transceiver the LoRa module is based on
 * **[Hookup Guide](https://learn.sparkfun.com/tutorials/1996)** - Basic hookup guide
-
+* **[SparkFun External EEPROM Arduino Library](https://github.com/sparkfun/SparkFun_External_EEPROM_Arduino_Library)** - Arduino library for the EEPROM
+* **[RadioLib Arduino Library](https://github.com/jgromes/RadioLib)** - Arduino library for peer-to-peer communication with the LoRa module
 
 Product Versions
 ----------------
